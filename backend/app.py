@@ -249,7 +249,7 @@ def apply_security_rule(terraform_code):
     
     if not (has_environment_tag and has_security_level_tag):
         # Ajouter un commentaire de sécurité
-        terraform_code = f"# ⚠️ ATTENTION: Vérifiez que toutes les ressources ont les tags requis: {', '.join(required_tags)}\n\n" + terraform_code
+        terraform_code = f"#  ATTENTION: Vérifiez que toutes les ressources ont les tags requis: {', '.join(required_tags)}\n\n" + terraform_code
     
     return terraform_code
 

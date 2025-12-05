@@ -43,10 +43,10 @@ npx http-server frontend -p 8000
 
 ## Fonctionnalités implémentées
 
-✅ **Étape 1** : Frontend UI V0 (1 champ texte + 1 bouton)
-✅ **Étape 2** : IA - Transformation du texte en JSON structuré
-✅ **Étape 3** : Backend - Génération de main.tf à partir du JSON
-✅ **Étape 4** : Règle de sécurité de base (tags requis)
+ Étape 1 : Frontend UI V0 (1 champ texte + 1 bouton)
+ Étape 2 : IA - Transformation du texte en JSON structuré
+ Étape 3 : Backend - Génération de main.tf à partir du JSON
+Étape 4 : Règle de sécurité de base (tags requis)
 
 ## Structure du projet
 
